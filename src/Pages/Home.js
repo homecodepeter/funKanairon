@@ -9,21 +9,16 @@ import Hotels from './Hotels'
 
 const Home = () => {
   return (
-    <div className='bg-black'>
+    <div className='bg-black overflow-x-hidden'>
     <div>
      <div>
         <Header />
      </div>
 
-    <div className='bg-black flex'>
-     <div className='w-[320px] flex items-center justify-center'>
-    <h1 className='text-white text-[30px]'>Ads on this side</h1>
-     </div>
-     <div className='flex-1'>
+    <div className='bg-black w-[100%] overflow-x-hidden md:flex'>
+     <div className='md:flex-1 w-[100%] overflow-x-hidden m-auto'>
          <HomeScreen />
-     </div>
-     <div className='w-[320px] flex items-center justify-center'>
-    <h2 className='text-white text-[30px]'>Another add maybe</h2>
+         <Hotels />
      </div>
     </div>
     </div>
