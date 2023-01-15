@@ -25,7 +25,7 @@ const Header = () => {
         </div>
         <div className="md:flex grid justify-around items-center">
         <div className='w-[500px] m-auto mt-5 h-[300px] right-8 rounded-md mb-4 ab'>
-         <img className='rounded-md m-auto w-[300px]' src='https://www.wantedinafrica.com/i/preview/storage/uploads/2019/09/Shopping_malls_in_Nairobi.jpg' alt='' />
+         <img className='rounded-md m-auto xls:w-[900px] w-[300px]' src='https://www.wantedinafrica.com/i/preview/storage/uploads/2019/09/Shopping_malls_in_Nairobi.jpg' alt='' />
         </div>
         <div className='w-[300px] m-auto py-3 right-8 md:mt-6 bg-white rounded-md mb-4 md:flex items-center'>
            <div className='w-[300px]'>

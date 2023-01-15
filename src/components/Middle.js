@@ -8,18 +8,18 @@ const Middle = () => {
     <div className='w-[100%] h-auto pb-14'>
         <div className='w-[80%] m-auto h-[400px] mt-5 relative pt-10 flex justify-between'>
             <div className='img  z-20 mt-8'>
-            <div className='w-[400px] hidden h-[300px] z-0 absolute rounded-md bg-slate-100'></div>
+            <div className='w-[400px] hidden xl:block h-[300px] z-0 absolute rounded-md bg-slate-100'></div>
              <img src={img} alt='' 
              className='w-[400px] h-[300px] hidden md:block rotate-45 rounded-md'
              />
             </div>
             <div className='m-auto'>
             <img src={img2} alt='' 
-             className='md:w-[400px] w-[300px] h-[300px]  rounded-md'
+             className='md:w-[400px] xls:w-[800px] xls:h-[400px] w-[300px] h-[300px]  rounded-md'
              />
             </div>
         </div>
-        <div className='md:w-[80%] w-[300px] h-[340px] bg-slate-400 rounded-md  m-auto mt-[5em]'>
+        <div className='md:w-[80%]  w-[300px] h-[340px] bg-slate-400 rounded-md  m-auto mt-[5em]'>
           <img src={img3} alt='' 
           className='rounded-md w-[100%] h-[100%]'
           />

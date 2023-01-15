@@ -3,7 +3,7 @@ import { hotals } from './hotal'
 
 const Hotels = () => {
   return (
-    <div className='w-[90%] overflow-x-hidden lg:w-[80%] grid m-auto lg:grid-cols-2 xl:grid-cols-3 pt-4 pb-4 mb-7'>
+    <div className='w-[90%] overflow-x-hidden lg:w-[80%] grid m-auto lg:grid-cols-2 xls:grid-cols-3 pt-4 pb-4 mb-7'>
     {hotals.map(res => (
        <div className='m-auto md:w-[700px] md:gap-3 lg:w-[480px] p-2 rounded-md bg-white mb-4' key={res.id}>
        <div className='grid md:grid-cols-2'>
