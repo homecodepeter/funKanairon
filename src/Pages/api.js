@@ -5,7 +5,7 @@ export const malls = [
         location: "https://www.google.com/maps/place/The+Village+Market/@-1.2285624,36.8055947,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipOciO6xOAPnY6sq5xE1tJrp1S6Y0ZgnoAy4CXYI!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOciO6xOAPnY6sq5xE1tJrp1S6Y0ZgnoAy4CXYI%3Dw86-h129-k-no!7i4480!8i6720!4m5!3m4!1s0x182f17c02c0c60eb:0xabe915056c56fb6c!8m2!3d-1.2293591!4d36.8048235",
         image: [
         "https://www.capitalfm.co.ke/business/files/2017/11/village-market.jpg",
-        "https://cdn.standardmedia.co.ke/sdemedia/sdeimages/wednesday/thumb_twr1p94gzqfq5a4cd3dc98fa1.jpg",
+        "https://i.pinimg.com/originals/f1/79/f4/f179f49a60bacaea8e85341740ac010c.jpg",
         "https://pbs.twimg.com/media/D7b8eQJWsAQoVsB.jpg",
         "https://www.upkenya.com/wp-content/uploads/2020/10/the-village-market.jpg"
         ],

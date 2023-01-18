@@ -9,7 +9,6 @@ const Header = () => {
       "https://www.diethelmtravel.com/wp-content/uploads/2016/04/bill-gates-wealthiest-person.jpg"
 
   ]
-  console.log(commet.map((comm, i) => console.log(i)))
   return (
     <div className='w-[100%] relative'>
         <div className='w-[70%] rounded-md z-10 md:h-[300px] relative bg-[#fff] m-auto pt-6 mb-5 md:flex'>
@@ -17,10 +16,10 @@ const Header = () => {
              <h3 className='font-bold text-[20px] md:text-[30px] lg:text-[40px] p-2 text-slate-500'>Kenyans Are good people who make good places.</h3>
              <p className='text-green-500 flex p-2 font-bold'>Fun<h3 className='text-black font-semibold'>Kanairo</h3></p>
              <div className='w-[200px] h-[200px] lg:block hidden bg-slate-500 absolute z-0 top-14 -rotate-12 right-5 rounded-md'></div>
-             <div className='w-[200px] h-[200px] lg:block hidden bg-[#ccc] absolute z-0 top-14 right-[20em] rotate-12 rounded-md'></div>
+             <div className='w-[200px] h-[200px] lg:block hidden bg-[#ccc] absolute mdl:right-[13em] z-0 top-14  rotate-12 rounded-md'></div>
             </div>
             <div className='z-40 md:w-[340px] lg:h-[300px]'>
-           <img src={img} alt='' className='rounded-md p-0  lg:h-[200px] w-[340px]' />
+           <img src={img} alt='' className='rounded-md p-0  lg:h-[200px] w-[100%] md:w-[340px]' />
             </div>
         </div>
         <div className="md:flex grid justify-around items-center">
