@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 const Header = () => {
     const img = "https://hauzisha.co.ke/blog/wp-content/uploads/2021/12/pexels-pixabay-54581.jpg"
