@@ -8,9 +8,8 @@ import Nevbar from './Pages/Nevbar';
 import ReactGA from 'react-ga';
 
 const Tracking_ID = "UA-254788262-1"
-const MeasureMent_Id = "G-34C8J7MP6B"
 
-ReactGA.initialize(MeasureMent_Id);
+ReactGA.initialize(Tracking_ID);
 
 function App() {
   return (
