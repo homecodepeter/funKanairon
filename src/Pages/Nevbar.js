@@ -1,8 +1,14 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import ReactGA from 'react-ga';
 
 const Nevbar = () => {
   const [show, setShow] = useState(false)
+
+  useEffect(() => {
+     ReactGA.pageview(window.location.pathname);
+  }, [])
+
   return (
     <div className='bg-black'>
            <div className='block h-[80px] flex justify-around items-center md:hidden'> 

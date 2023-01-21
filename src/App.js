@@ -5,6 +5,11 @@ import Home from './Pages/Home';
 import Hotel from './Pages/Hotel';
 import Malls from './Pages/Malls';
 import Nevbar from './Pages/Nevbar';
+import ReactGA from 'react-ga';
+
+const Tracking_ID = "UA-254788262-1"
+
+ReactGA.initialize(Tracking_ID);
 
 function App() {
   return (
